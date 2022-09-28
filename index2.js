@@ -12,6 +12,8 @@ app.use(express.urlencoded({extended:true}));
 //   console.log('You are now connected with mysql database...');
 // });
 
+
+
 app.listen(3000,()=>{
     console.log("Listen on port 3000 .... index2");
 });
